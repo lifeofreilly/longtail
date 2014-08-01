@@ -58,6 +58,7 @@ Log information will be output to ./logs/error.log
 Example Results:
 -------------------------
 
+```
 > mongo
 MongoDB shell version: 2.6.3
 connecting to: test
@@ -73,7 +74,8 @@ switched to db mongo
 	"file" : "www.bing.com+2014-07-30+19-50-07.har",
 	"onContentLoad" : 1607,
 	"url" : "http://www.bing.com/"
-} 
+}
+```
 
 Test Execution:
 -------------------------

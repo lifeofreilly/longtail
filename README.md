@@ -47,12 +47,14 @@ Usage:
 -------------------------
 
 Start MongoDB:
+```
 > mongod --dbpath <path to data directory>
+```
 
 Running as an executable jar:
-
+```
 > java -jar ./target/longtail-1.0-SNAPSHOT-jar-with-dependencies.jar
-
+```
 Log information will be output to ./logs/error.log
 
 Example Results:
@@ -81,7 +83,9 @@ Test Execution:
 -------------------------
 
 Execute all unit tests:
+```
 > mvn test
+```
 
 License
 -------------------------

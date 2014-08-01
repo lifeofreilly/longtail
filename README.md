@@ -38,9 +38,13 @@ Adjust the default paths and MongoDB settings in:
 * ./src/main/java/com/gmail/lifeofreilly/longtail/Longtail.java
 * ./src/test/java/com/gmail/lifeofreilly/longtailHARProcessorTest.java
 
-Building an Executable Jar:
-> mvn package
+Specify the target web page(s) in:
+* ./src/main/java/com/gmail/lifeofreilly/longtail/Longtail.java
 
+Building an Executable Jar:
+```
+> mvn package
+```
 The standalone executable jar can be found at: ./target/longtail-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 Usage:
@@ -51,7 +55,7 @@ Start MongoDB:
 > mongod --dbpath <path to data directory>
 ```
 
-Running as an executable jar:
+Run as an executable jar:
 ```
 > java -jar ./target/longtail-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
